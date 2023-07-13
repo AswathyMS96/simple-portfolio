@@ -1,7 +1,20 @@
 .button-text {
-    border-color:#789dff;;
+    border-color:#789dff;
     background:  #5651e5;
+    /*  background-image: linear-gradient(108deg, #236ce3, #1dce91,#ff11ff);*/
     box-shadow: 3.77336px 3.77336px 11.3201px rgba(0, 0, 0, 0.25);
-    border-radius: 26.0148px;
+    border-radius: 24px;
     color: #fff;
   }
+  .button-text:hover {
+    background: #12ebe0;
+    color: black;
+    text-decoration:solid;
+  }
+.buttonconnect{
+    /* background:  #5434e2; */
+    background-image: linear-gradient(108deg, #236ce3, #1dce91);
+    border-radius: 24px;
+    color: #fff;
+    padding: 10px;
+}
